@@ -1,0 +1,368 @@
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/Wishbone_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Wishbone_Controller.ucf -p xc6slx9-tqg144-2 "Wishbone_Controller.ngc" Wishbone_Controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Wishbone_Controller_map.ncd Wishbone_Controller.ngd Wishbone_Controller.pcf 
+par -w -intstyle ise -ol high -mt off Wishbone_Controller_map.ncd Wishbone_Controller.ncd Wishbone_Controller.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Wishbone_Controller.twx Wishbone_Controller.ncd -o Wishbone_Controller.twr Wishbone_Controller.pcf -ucf Wishbone_Controller.ucf 
+bitgen -intstyle ise -f Wishbone_Controller.ut Wishbone_Controller.ncd 

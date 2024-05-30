@@ -1,0 +1,17 @@
+# Output products list for <control>
+_xmsgs\pn_parser.xmsgs
+control.asy
+control.constraints\control.ucf
+control.constraints\control.xdc
+control.gise
+control.ngc
+control.sym
+control.ucf
+control.v
+control.veo
+control.xco
+control.xdc
+control.xise
+control_flist.txt
+control_readme.txt
+control_xmdf.tcl

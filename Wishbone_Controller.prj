@@ -1,0 +1,7 @@
+verilog work "ufifo.v"
+verilog work "txuart.v"
+verilog work "rxuart.v"
+verilog work "wbuart.v"
+verilog work "ipcore_dir/ILA.v"
+verilog work "ipcore_dir/control.v"
+verilog work "Wishbone_Controller.v"

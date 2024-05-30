@@ -1,0 +1,11 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed May 29 16:36:32 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "i_uart_rx" LOCATE = SITE "P12" LEVEL 1;
+COMP "i_clk" LOCATE = SITE "P126" LEVEL 1;
+COMP "o_uart_tx" LOCATE = SITE "P14" LEVEL 1;
+COMP "push_button" LOCATE = SITE "P114" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,6 @@
+NET "i_clk" LOC = "P126";
+#NET "i_rst"   LOC = "P16";
+NET "push_button"   LOC = "P114";
+NET "o_uart_tx"   LOC = "P14";
+NET "i_uart_rx"   LOC = "P12";
+

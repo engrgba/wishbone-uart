@@ -1,0 +1,4 @@
+verilog work "ufifo.v"
+verilog work "txuart.v"
+verilog work "rxuart.v"
+verilog work "wbuart.v"

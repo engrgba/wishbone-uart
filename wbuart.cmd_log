@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/wbuart.xst" -ofn "D:/Gul Bahar Data/FPGAs/XILINX ISE/Wishbone Bus/Wishboneinterface/wbuart.syr" 
